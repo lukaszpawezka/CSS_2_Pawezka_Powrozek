@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #body_3 {
     background-image: url("../img/nature_2.jpg");
     background-position: right;
@@ -66,3 +67,80 @@
     height: 50px;
     width: 550px;
 }
+=======
+#body_3 {
+    background-image: url("../img/nature_2.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#body_4 {
+    /*background-image: radial-gradient(goldenrod, burlywood, white);*/
+    background-repeat: no-repeat;
+}
+
+#udanyPrzepis {
+    text-shadow: 2px 2px hsla(0, 100%, 50%, 0.5);
+}
+
+#form_buttons {
+    /*border: 2px solid darkcyan;*/
+    border: 2px solid rgba(0, 139, 139, 0.7);
+    padding: 10px;
+    border-radius: 50px 20px;
+    width: 250px;
+}
+
+#form_buttons_2 {
+    border: 10px double black;
+    padding: 25px;
+    background: url("../img/paper.jpg");
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    /*background-origin: border-box;*/
+    /*background-origin: content-box;*/
+    width: 300px;
+}
+
+#search_phrase {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    width: 250px;
+}
+
+#sernik_info {
+    background-image: linear-gradient(burlywood, white, yellow);
+}
+
+#footer_4 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image-source: url("../img/border_image_source.jpg");
+    border-image-slice: 30;
+    height: 50px;
+    width: 550px;
+}
+
+#footer_3 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url("../img/border_image_source.jpg") round;
+    -webkit-border-image: url("../img/border_image_source.jpg") round; /* Safari 3.1-5 */
+    -o-border-image: url("../img/border_image_source.jpg") round; /* Opera 11-12.1 */
+    /*border-image-slice: 10%;*/
+    border-image-slice: 20%;
+    /*border-image-slice: 30%;*/
+    /*border-image-repeat: repeat;*/
+    border-image-repeat: round;
+    height: 50px;
+    width: 550px;
+}
+
+.flex-container {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+>>>>>>> Dodane wszystko poza face-fonts
